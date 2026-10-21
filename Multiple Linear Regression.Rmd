@@ -35,11 +35,11 @@ Visual inspection of scatter plots and inspection of minimum and maximum data po
 continued our analysis using entire dataset by removing duplicate values; checked using wine[duplicated(wine), ]\
 
 ```{r echo=FALSE}
-red <- read.csv("C:/Users/vishw/Documents/winequality-red.csv",sep = ";",header = TRUE)
+red <- read.csv("winequality-red.csv",sep = ";",header = TRUE)
 red$color<-"red"
 #Assigning 0 to red
 
-white <- read.csv("C:/Users/vishw/Documents/winequality-white.csv",sep = ";",header = TRUE)
+white <- read.csv("winequality-white.csv",sep = ";",header = TRUE)
 white$color <-"white"
 #Assigning 1 to white
 
